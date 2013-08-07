@@ -304,8 +304,8 @@ __go_to_session() {
 
 __go_to_window_or_session_path() {
   local window_or_session_root=${window_root-$session_root}
-  if [ -n "$window_or_session_root" ]; then
-    run_cmd "cd \"$window_or_session_root\""
-    run_cmd "clear"
-  fi
+  #if [ -n "$window_or_session_root" ]; then
+    #run_cmd "cd \"$window_or_session_root\""
+    #run_cmd "clear"
+  #fi
 }
